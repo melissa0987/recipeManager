@@ -1,0 +1,63 @@
+Melissa Louise Bangloy		1468444
+
+
+Smart Recipe Planner Proposal
+Course: Application Development – PyQt6
+
+
+1. Project Overview
+Smart Recipe Planner is a desktop application designed to help users efficiently manage and organize their cooking recipes and weekly meal plans. Built using Python and PyQt6, the application provides an intuitive interface for adding, editing, viewing, and categorizing recipes, along with the ability to plan meals throughout the week. The goal is to simplify meal planning and recipe storage for everyday users who prefer an offline, easy-to-use solution without needing cloud accounts or mobile apps.
+
+This project showcases a variety of GUI development techniques and concepts learned throughout the course, including the use of widgets, layout managers, signals and slots, custom components, and file handling.
+
+2. Target Users
+The application is intended for:
+	-Home cooks managing personal or family meal plans
+	-Students or professionals looking to organize recipes and plan meals
+	-Individuals who want a local (non-cloud) solution for their recipe collections
+
+3. Planned Features and Functionality
+	Feature			Description
+Add/Edit/Delete Recipes	-- Users can input recipe name, category, ingredients, and instructions
+Recipe List Display	-- Shows all saved recipes in a list format with search/filter functionality
+Meal Planner View	-- Optional weekly planner view to assign recipes to days of the week
+Data Persistence	-- Save/load recipes using local text or JSON files
+User Input Validation	-- Ensures fields are not empty and alerts user to any issues
+Menus and Shortcuts	-- Menus for file actions, edit tools, and help/about, with keyboard shortcuts
+Custom Signal		-- Emits signal when recipe is selected from the list to update preview pane
+
+4. Technical Requirements Checklist
+Requirement		  --- Planned Implementation
+Multiple Windows/Dialogs  --- Main window + separate Add/Edit Recipe dialog
+Widget Variety (6+)	  --- QPushButton, QLineEdit, QLabel, QTextEdit, QComboBox, QListWidget, QTableWidget
+Layout Managers (3)	  --- QVBoxLayout (main layout), QFormLayout (recipe input form), QGridLayout (meal planner)
+Built-in Signals	  --- Button clicks, combo box changes, text inputs trigger appropriate methods
+Custom Signals		  --- Custom signal from recipe list item to preview panel
+Menus and Actions	  --- File, Edit, Help menus with QAction objects and keyboard shortcuts
+Toolbar (optional)	  --- Toolbar with buttons for Add, Save, Load
+File I/O		  --- Save and load recipe data using text or JSON files
+Validation/Error Handling   --- Check required fields and show error dialogs
+Data Structures		  --- List of dictionaries to hold recipe data
+
+
+5. UI Design Plan
+Main Window Layout
+	-Top: Menu bar with File, Edit, Help
+	-Left Panel: QListWidget displaying recipe titles
+	-Right Panel: Preview panel for selected recipe (name, ingredients, instructions)
+	-Bottom Buttons: Add Recipe, Edit, Delete
+
+    Add/Edit Recipe Dialog
+	Fields:
+	   - QLineEdit: Recipe name
+	   - QComboBox: Category (e.g., Breakfast, Vegetarian)
+	   - QTextEdit: Ingredients (multiline)
+	   - QTextEdit: Instructions (multiline)
+	   - QPushButton: Save and Cancel
+
+
+6. Menu Structure and Shortcuts
+Menu --		Actions		  --	Shortcuts
+File --	New, Open, Save, Exit	  --	Ctrl+N, Ctrl+O, Ctrl+S, Ctrl+Q
+Edit --	Add Recipe, Delete Recipe --	Ctrl+A, Del
+Help --	About			  --	F1
