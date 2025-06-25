@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Pancakes",
+    "category": "Breakfast",
+    "ingredients": "2 cups all-purpose flour\n2 tablespoons sugar\n2 teaspoons baking powder\n1 teaspoon salt\n2 large eggs\n1¾ cups milk\n4 tablespoons melted butter\n1 teaspoon vanilla extract\nButter for cooking",
+    "instructions": "1. In a large bowl, whisk together flour, sugar, baking powder, and salt.\n2. In another bowl, beat eggs, then whisk in milk, melted butter, and vanilla.\n3. Pour wet ingredients into dry ingredients and stir until just combined (lumps are okay).\n4. Heat a lightly buttered griddle or non-stick pan over medium heat.\n5. Pour ¼ cup batter for each pancake onto the griddle.\n6. Cook until bubbles form on surface and edges look set, about 2-3 minutes.\n7. Flip and cook until golden brown, 1-2 minutes more.\n8. Serve immediately with maple syrup and butter."
+  },
+  {
+    "id": 2,
+    "name": "Mediterranean Quinoa Salad",
+    "category": "Lunch",
+    "ingredients": "1 cup quinoa\n2 cups vegetable broth\n1 cucumber, diced\n2 tomatoes, diced\n½ red onion, finely chopped\n½ cup kalamata olives, pitted and halved\n½ cup crumbled feta cheese\n¼ cup fresh parsley, chopped\n2 tablespoons olive oil\n2 tablespoons lemon juice\n1 teaspoon dried oregano\nSalt and pepper to taste",
+    "instructions": "1. Rinse quinoa in cold water until water runs clear.\n2. In a medium saucepan, bring vegetable broth to a boil.\n3. Add quinoa, reduce heat to low, cover and simmer for 15 minutes.\n4. Remove from heat and let stand 5 minutes, then fluff with a fork.\n5. Let quinoa cool to room temperature.\n6. In a large bowl, combine cooled quinoa, cucumber, tomatoes, red onion, olives, and feta.\n7. In a small bowl, whisk together olive oil, lemon juice, and oregano.\n8. Pour dressing over salad and toss gently.\n9. Season with salt and pepper to taste.\n10. Chill for at least 30 minutes before serving."
+  },
+  {
+    "id": 3,
+    "name": "Beef Stir-Fry with Vegetables",
+    "category": "Dinner",
+    "ingredients": "1 lb beef sirloin, sliced thin\n2 tablespoons vegetable oil\n1 bell pepper, sliced\n1 cup broccoli florets\n1 carrot, julienned\n2 cloves garlic, minced\n1 tablespoon fresh ginger, minced\n3 tablespoons soy sauce\n2 tablespoons oyster sauce\n1 tablespoon cornstarch\n1 teaspoon sesame oil\n2 green onions, chopped\nCooked rice for serving",
+    "instructions": "1. In a small bowl, mix soy sauce, oyster sauce, cornstarch, and sesame oil to make sauce.\n2. Heat 1 tablespoon oil in a large wok or skillet over high heat.\n3. Add beef and stir-fry until browned, about 2-3 minutes. Remove and set aside.\n4. Add remaining oil to the pan.\n5. Add garlic and ginger, stir-fry for 30 seconds.\n6. Add bell pepper, broccoli, and carrot. Stir-fry for 2-3 minutes until crisp-tender.\n7. Return beef to the pan and add sauce.\n8. Stir-fry for 1-2 minutes until sauce thickens and coats everything.\n9. Garnish with green onions and serve over rice."
+  },
+  {
+    "id": 4,
+    "name": "Chocolate Chip Cookies",
+    "category": "Dessert",
+    "ingredients": "2¼ cups all-purpose flour\n1 teaspoon baking soda\n1 teaspoon salt\n1 cup butter, softened\n¾ cup granulated sugar\n¾ cup brown sugar, packed\n2 large eggs\n2 teaspoons vanilla extract\n2 cups chocolate chips",
+    "instructions": "1. Preheat oven to 375°F (190°C).\n2. In a medium bowl, whisk together flour, baking soda, and salt.\n3. In a large bowl, cream together butter and both sugars until light and fluffy.\n4. Beat in eggs one at a time, then vanilla.\n5. Gradually mix in flour mixture until just combined.\n6. Stir in chocolate chips.\n7. Drop rounded tablespoons of dough onto ungreased baking sheets.\n8. Bake for 9-11 minutes until golden brown.\n9. Cool on baking sheet for 5 minutes, then transfer to wire rack.\n10. Store in airtight container."
+  },
+  {
+    "id": 5,
+    "name": "Avocado Toast",
+    "category": "Breakfast",
+    "ingredients": "2 slices whole grain bread\n1 ripe avocado\n1 tablespoon lime juice\n¼ teaspoon salt\n⅛ teaspoon black pepper\n¼ teaspoon red pepper flakes\n1 tablespoon olive oil\n1 small tomato, diced (optional)\n2 tablespoons feta cheese, crumbled (optional)",
+    "instructions": "1. Toast bread slices until golden brown.\n2. In a small bowl, mash avocado with lime juice, salt, and pepper.\n3. Spread avocado mixture evenly on toast.\n4. Drizzle with olive oil.\n5. Sprinkle with red pepper flakes.\n6. Top with diced tomato and feta cheese if desired.\n7. Serve immediately."
+  },
+  {
+    "id": 6,
+    "name": "Chicken Caesar Salad",
+    "category": "Lunch",
+    "ingredients": "2 boneless chicken breasts\n2 tablespoons olive oil\n1 teaspoon garlic powder\nSalt and pepper to taste\n1 large head romaine lettuce, chopped\n½ cup Caesar dressing\n¼ cup parmesan cheese, grated\n1 cup croutons\n2 tablespoons lemon juice",
+    "instructions": "1. Season chicken breasts with salt, pepper, and garlic powder.\n2. Heat olive oil in a large skillet over medium-high heat.\n3. Cook chicken for 6-7 minutes per side until internal temperature reaches 165°F.\n4. Let chicken rest for 5 minutes, then slice into strips.\n5. In a large bowl, toss romaine lettuce with Caesar dressing and lemon juice.\n6. Top with sliced chicken, parmesan cheese, and croutons.\n7. Serve immediately."
+  },
+  {
+    "id": 7,
+    "name": "Spaghetti Carbonara",
+    "category": "Dinner",
+    "ingredients": "1 lb spaghetti\n6 slices bacon, chopped\n4 large eggs\n1 cup parmesan cheese, grated\n3 cloves garlic, minced\n½ cup heavy cream\n¼ cup fresh parsley, chopped\nSalt and black pepper to taste",
+    "instructions": "1. Cook spaghetti according to package directions until al dente. Reserve 1 cup pasta water.\n2. In a large skillet, cook bacon until crispy. Remove excess fat, leaving 2 tablespoons.\n3. Add garlic to the bacon and cook for 1 minute.\n4. In a bowl, whisk together eggs, parmesan, cream, salt, and pepper.\n5. Drain pasta and add to the skillet with bacon.\n6. Remove from heat and quickly stir in egg mixture, tossing continuously.\n7. Add pasta water as needed to create a creamy sauce.\n8. Garnish with parsley and additional parmesan.\n9. Serve immediately."
+  },
+  {
+    "id": 8,
+    "name": "Fruit Smoothie Bowl",
+    "category": "Breakfast",
+    "ingredients": "1 frozen banana\n½ cup frozen mixed berries\n½ cup Greek yogurt\n¼ cup almond milk\n1 tablespoon honey\n¼ cup granola\n2 tablespoons sliced almonds\n1 tablespoon chia seeds\nFresh berries for topping",
+    "instructions": "1. In a blender, combine frozen banana, frozen berries, Greek yogurt, almond milk, and honey.\n2. Blend until smooth and thick (like soft-serve ice cream consistency).\n3. Pour into a bowl.\n4. Top with granola, sliced almonds, chia seeds, and fresh berries.\n5. Serve immediately with a spoon."
+  },
+  {
+    "id": 9,
+    "name": "Veggie Burger",
+    "category": "Vegetarian",
+    "ingredients": "1 can black beans, drained and rinsed\n½ cup breadcrumbs\n¼ cup red onion, finely diced\n2 cloves garlic, minced\n1 egg\n1 teaspoon cumin\n1 teaspoon paprika\nSalt and pepper to taste\n2 tablespoons olive oil\n4 burger buns\nLettuce, tomato, and condiments for serving",
+    "instructions": "1. In a large bowl, mash black beans with a fork, leaving some chunks.\n2. Mix in breadcrumbs, onion, garlic, egg, cumin, paprika, salt, and pepper.\n3. Form mixture into 4 patties. Chill for 30 minutes.\n4. Heat olive oil in a large skillet over medium heat.\n5. Cook patties for 4-5 minutes per side until crispy outside.\n6. Toast burger buns if desired.\n7. Serve patties on buns with lettuce, tomato, and your favorite condiments."
+  },
+  {
+    "id": 10,
+    "name": "Apple Pie",
+    "category": "Dessert",
+    "ingredients": "2 pie crusts (store-bought or homemade)\n6 large apples, peeled and sliced\n¾ cup sugar\n2 tablespoons flour\n1 teaspoon cinnamon\n¼ teaspoon nutmeg\n¼ teaspoon salt\n2 tablespoons butter\n1 egg, beaten (for egg wash)",
+    "instructions": "1. Preheat oven to 425°F (220°C).\n2. Line a 9-inch pie dish with one crust.\n3. In a large bowl, toss apples with sugar, flour, cinnamon, nutmeg, and salt.\n4. Fill pie crust with apple mixture and dot with butter.\n5. Cover with second crust and seal edges.\n6. Cut several slits in top crust for steam vents.\n7. Brush top with beaten egg.\n8. Bake for 15 minutes, then reduce to 350°F (175°C) and bake 35-45 minutes until golden.\n9. Cool completely before serving."
+  },
+  {
+    "id": 11,
+    "name": "Trail Mix",
+    "category": "Snack",
+    "ingredients": "1 cup mixed nuts (almonds, cashews, peanuts)\n½ cup dried fruit (raisins, cranberries, apricots)\n¼ cup dark chocolate chips\n¼ cup sunflower seeds\n2 tablespoons coconut flakes\n1 teaspoon sea salt",
+    "instructions": "1. In a large bowl, combine all ingredients.\n2. Mix well to distribute evenly.\n3. Store in an airtight container for up to 2 weeks.\n4. Portion into small bags for on-the-go snacking."
+  },
+  {
+    "id": 12,
+    "name": "Grilled Salmon",
+    "category": "Dinner",
+    "ingredients": "4 salmon fillets (6 oz each)\n2 tablespoons olive oil\n2 tablespoons lemon juice\n2 cloves garlic, minced\n1 teaspoon dried dill\n½ teaspoon paprika\nSalt and pepper to taste\nLemon wedges for serving",
+    "instructions": "1. Preheat grill to medium-high heat.\n2. In a small bowl, mix olive oil, lemon juice, garlic, dill, paprika, salt, and pepper.\n3. Brush salmon fillets with the mixture.\n4. Oil the grill grates to prevent sticking.\n5. Grill salmon for 4-5 minutes per side, depending on thickness.\n6. Fish is done when it flakes easily with a fork.\n7. Serve with lemon wedges."
+  },
+  {
+    "id": 13,
+    "name": "Vegetable Soup",
+    "category": "Vegetarian",
+    "ingredients": "2 tablespoons olive oil\n1 onion, diced\n2 carrots, diced\n2 celery stalks, diced\n3 cloves garlic, minced\n6 cups vegetable broth\n1 can diced tomatoes\n1 cup green beans, chopped\n1 cup corn kernels\n1 teaspoon dried thyme\nSalt and pepper to taste\nFresh parsley for garnish",
+    "instructions": "1. Heat olive oil in a large pot over medium heat.\n2. Add onion, carrots, and celery. Cook for 5 minutes until softened.\n3. Add garlic and cook for 1 minute.\n4. Add broth, tomatoes, green beans, corn, and thyme.\n5. Bring to a boil, then reduce heat and simmer for 20 minutes.\n6. Season with salt and pepper.\n7. Serve hot, garnished with fresh parsley."
+  },
+  {
+    "id": 14,
+    "name": "Banana Bread",
+    "category": "Dessert",
+    "ingredients": "3 ripe bananas, mashed\n⅓ cup melted butter\n¾ cup sugar\n1 egg, beaten\n1 teaspoon vanilla extract\n1 teaspoon baking soda\nPinch of salt\n1½ cups all-purpose flour\n½ cup chopped walnuts (optional)",
+    "instructions": "1. Preheat oven to 350°F (175°C). Grease a 9x5 inch loaf pan.\n2. In a mixing bowl, mash bananas with a fork.\n3. Mix in melted butter, sugar, egg, and vanilla.\n4. Sprinkle baking soda and salt over the mixture and mix in.\n5. Add flour and mix until just incorporated.\n6. Fold in walnuts if using.\n7. Pour batter into prepared loaf pan.\n8. Bake for 60-65 minutes until a toothpick comes out clean.\n9. Cool in pan for 10 minutes, then turn out onto wire rack."
+  },
+  {
+    "id": 15,
+    "name": "Hummus with Vegetables",
+    "category": "Snack",
+    "ingredients": "1 can chickpeas, drained and rinsed\n¼ cup tahini\n2 tablespoons lemon juice\n2 cloves garlic\n2 tablespoons olive oil\n½ teaspoon cumin\nSalt to taste\n2-3 tablespoons water\nCarrots, celery, bell peppers for dipping\nPaprika for garnish",
+    "instructions": "1. In a food processor, combine chickpeas, tahini, lemon juice, garlic, 1 tablespoon olive oil, cumin, and salt.\n2. Process until smooth, adding water as needed for desired consistency.\n3. Taste and adjust seasonings.\n4. Transfer to serving bowl and drizzle with remaining olive oil.\n5. Sprinkle with paprika.\n6. Cut vegetables into sticks for dipping.\n7. Serve immediately or refrigerate until ready to use."
+  },
+  {
+    "id": 16,
+    "name": "Chicken Tacos",
+    "category": "Dinner",
+    "ingredients": "1 lb boneless chicken thighs\n2 tablespoons olive oil\n1 teaspoon chili powder\n1 teaspoon cumin\n½ teaspoon paprika\nSalt and pepper to taste\n8 small corn tortillas\n1 cup shredded lettuce\n1 tomato, diced\n½ cup shredded cheese\n¼ cup sour cream\nSalsa for serving",
+    "instructions": "1. Season chicken with chili powder, cumin, paprika, salt, and pepper.\n2. Heat olive oil in a large skillet over medium-high heat.\n3. Cook chicken for 6-8 minutes per side until cooked through.\n4. Let rest for 5 minutes, then shred with two forks.\n5. Warm tortillas in a dry skillet or microwave.\n6. Fill tortillas with shredded chicken.\n7. Top with lettuce, tomato, cheese, and sour cream.\n8. Serve with salsa on the side."
+  },
+  {
+    "id": 17,
+    "name": "Green Smoothie",
+    "category": "Vegan",
+    "ingredients": "2 cups fresh spinach\n1 banana\n1 cup pineapple chunks\n½ cucumber, peeled\n1 cup coconut water\n1 tablespoon chia seeds\n1 tablespoon maple syrup\nJuice of ½ lime\nIce cubes as needed",
+    "instructions": "1. Add spinach and coconut water to blender first.\n2. Add banana, pineapple, cucumber, chia seeds, maple syrup, and lime juice.\n3. Blend on high speed until smooth.\n4. Add ice cubes if you prefer a colder, thicker smoothie.\n5. Blend again until well combined.\n6. Pour into glasses and serve immediately.\n7. Can be stored in refrigerator for up to 24 hours."
+  },
+  {
+    "id": 18,
+    "name": "BLT Sandwich",
+    "category": "Lunch",
+    "ingredients": "8 slices bacon\n4 slices bread (white or whole wheat)\n2 tablespoons mayonnaise\n2 large tomatoes, sliced\n4 leaves lettuce\nSalt and pepper to taste",
+    "instructions": "1. Cook bacon in a large skillet over medium heat until crispy.\n2. Drain on paper towels.\n3. Toast bread slices until golden brown.\n4. Spread mayonnaise on one side of each toast slice.\n5. Layer lettuce, tomato slices, and bacon on two pieces of toast.\n6. Season tomatoes with salt and pepper.\n7. Top with remaining toast slices.\n8. Cut diagonally and serve immediately."
+  },
+  {
+    "id": 19,
+    "name": "Chocolate Brownies",
+    "category": "Dessert",
+    "ingredients": "½ cup butter\n2 oz dark chocolate, chopped\n1 cup sugar\n2 large eggs\n½ cup all-purpose flour\n⅓ cup cocoa powder\n¼ teaspoon salt\n½ cup chocolate chips",
+    "instructions": "1. Preheat oven to 350°F (175°C). Line an 8x8 inch pan with parchment paper.\n2. In a double boiler, melt butter and dark chocolate together.\n3. Remove from heat and whisk in sugar.\n4. Beat in eggs one at a time.\n5. In a separate bowl, whisk together flour, cocoa powder, and salt.\n6. Fold dry ingredients into chocolate mixture until just combined.\n7. Stir in chocolate chips.\n8. Pour batter into prepared pan and spread evenly.\n9. Bake for 25-30 minutes until a toothpick comes out with moist crumbs.\n10. Cool completely before cutting."
+  },
+  {
+    "id": 20,
+    "name": "Energy Balls",
+    "category": "Snack",
+    "ingredients": "1 cup rolled oats\n½ cup peanut butter\n⅓ cup honey\n⅓ cup mini chocolate chips\n⅓ cup ground flaxseed\n1 teaspoon vanilla extract\n¼ cup shredded coconut",
+    "instructions": "1. In a large bowl, mix together oats, peanut butter, honey, chocolate chips, flaxseed, vanilla, and coconut.\n2. Stir until well combined.\n3. Refrigerate mixture for 30 minutes.\n4. Roll mixture into 1-inch balls using your hands.\n5. Place on a parchment-lined baking sheet.\n6. Refrigerate for at least 1 hour before serving.\n7. Store in refrigerator for up to 1 week.\n8. Makes about 20 energy balls."
+  },
+  {
+    "id": 21,
+    "name": "Classic Beef Tacos",
+    "category": "Mexican",
+    "ingredients": "1 lb ground beef\n8 taco shells\n1 packet taco seasoning\n1 cup shredded lettuce\n1 cup diced tomatoes\n1 cup shredded cheddar cheese\n1/2 cup sour cream\n1/4 cup diced onions\nSalsa for serving",
+    "instructions": "1. Cook ground beef in a large skillet over medium-high heat until browned\n2. Add taco seasoning and water according to package directions\n3. Simmer for 5 minutes until thickened\n4. Warm taco shells according to package directions\n5. Fill shells with beef mixture\n6. Top with lettuce, tomatoes, cheese, sour cream, and onions\n7. Serve with salsa on the side"
+  },
+  {
+    "id": 22,
+    "name": "Chicken Alfredo Pasta",
+    "category": "Italian",
+    "ingredients": "1 lb fettuccine pasta\n2 chicken breasts, sliced\n4 tbsp butter\n4 cloves garlic, minced\n2 cups heavy cream\n1 1/2 cups grated Parmesan cheese\n1/4 cup fresh parsley, chopped\nSalt and pepper to taste\n2 tbsp olive oil",
+    "instructions": "1. Cook pasta according to package directions, drain and set aside\n2. Season chicken with salt and pepper\n3. Heat olive oil in a large skillet, cook chicken until golden\n4. Remove chicken and set aside\n5. In same pan, melt butter and sauté garlic\n6. Add heavy cream and bring to a simmer\n7. Gradually whisk in Parmesan cheese\n8. Return chicken to pan, add pasta and toss\n9. Garnish with parsley and serve immediately"
+  },
+  {
+    "id": 23,
+    "name": "Vegetarian Buddha Bowl",
+    "category": "Healthy",
+    "ingredients": "1 cup quinoa\n2 cups roasted sweet potato, cubed\n1 cup steamed broccoli\n1 cup shredded carrots\n1 avocado, sliced\n1/4 cup pumpkin seeds\n2 tbsp tahini\n2 tbsp lemon juice\n1 tbsp maple syrup\n1 tsp garlic powder\nSalt to taste",
+    "instructions": "1. Cook quinoa according to package directions\n2. Roast sweet potato cubes at 400°F for 25 minutes\n3. Steam broccoli until tender-crisp\n4. Make dressing by whisking tahini, lemon juice, maple syrup, and garlic powder\n5. Arrange quinoa, sweet potato, broccoli, carrots, and avocado in bowls\n6. Sprinkle with pumpkin seeds\n7. Drizzle with tahini dressing before serving"
+  },
+  {
+    "id": 24,
+    "name": "Homemade Pizza Margherita",
+    "category": "Italian",
+    "ingredients": "1 pizza dough (store-bought or homemade)\n1/2 cup pizza sauce\n8 oz fresh mozzarella, sliced\n1/4 cup fresh basil leaves\n2 tbsp olive oil\n1 tsp garlic powder\nSalt and pepper to taste\nFlour for dusting",
+    "instructions": "1. Preheat oven to 475°F\n2. Roll out pizza dough on floured surface\n3. Transfer to pizza stone or baking sheet\n4. Brush with olive oil and sprinkle with garlic powder\n5. Spread pizza sauce evenly\n6. Add mozzarella slices\n7. Bake for 12-15 minutes until crust is golden\n8. Remove and top with fresh basil\n9. Season with salt and pepper, slice and serve"
+  },
+  {
+    "id": 25,
+    "name": "Teriyaki Salmon",
+    "category": "Japanese",
+    "ingredients": "4 salmon fillets\n1/4 cup soy sauce\n2 tbsp honey\n2 tbsp rice vinegar\n1 tbsp sesame oil\n2 cloves garlic, minced\n1 tsp fresh ginger, grated\n1 tbsp cornstarch\n2 green onions, sliced\n1 tbsp sesame seeds",
+    "instructions": "1. Mix soy sauce, honey, rice vinegar, sesame oil, garlic, and ginger\n2. Reserve 1/4 cup sauce, marinate salmon in rest for 30 minutes\n3. Heat pan over medium-high heat\n4. Cook salmon 4-5 minutes per side\n5. Mix cornstarch with reserved sauce\n6. Pour sauce into pan, simmer until thickened\n7. Garnish with green onions and sesame seeds\n8. Serve immediately"
+  },
+  {
+    "id": 26,
+    "name": "Greek Salad",
+    "category": "Mediterranean",
+    "ingredients": "4 cups mixed greens\n1 cucumber, diced\n2 tomatoes, chopped\n1/2 red onion, thinly sliced\n1/2 cup Kalamata olives\n4 oz feta cheese, crumbled\n1/4 cup olive oil\n2 tbsp red wine vinegar\n1 tsp dried oregano\nSalt and pepper to taste",
+    "instructions": "1. Combine mixed greens, cucumber, tomatoes, and red onion in large bowl\n2. Add olives and feta cheese\n3. Whisk together olive oil, red wine vinegar, oregano, salt, and pepper\n4. Drizzle dressing over salad\n5. Toss gently to combine\n6. Serve immediately"
+  },
+  {
+    "id": 27,
+    "name": "Beef Stir Fry",
+    "category": "Asian",
+    "ingredients": "1 lb beef sirloin, sliced thin\n2 tbsp vegetable oil\n1 bell pepper, sliced\n1 cup broccoli florets\n1 carrot, julienned\n2 cloves garlic, minced\n1 tbsp fresh ginger, grated\n3 tbsp soy sauce\n1 tbsp oyster sauce\n1 tsp cornstarch\n2 green onions, chopped",
+    "instructions": "1. Heat oil in wok or large skillet over high heat\n2. Add beef and stir-fry for 2-3 minutes\n3. Add vegetables and stir-fry for 3-4 minutes\n4. Add garlic and ginger, stir for 30 seconds\n5. Mix soy sauce, oyster sauce, and cornstarch\n6. Pour sauce over stir-fry and toss\n7. Cook until sauce thickens\n8. Garnish with green onions and serve with rice"
+  },
+  {
+    "id": 28,
+    "name": "Banana Bread",
+    "category": "Dessert",
+    "ingredients": "3 ripe bananas, mashed\n1/3 cup melted butter\n3/4 cup sugar\n1 egg, beaten\n1 tsp vanilla extract\n1 tsp baking soda\n1/4 tsp salt\n1 1/2 cups all-purpose flour\n1/2 cup chopped walnuts (optional)",
+    "instructions": "1. Preheat oven to 350°F, grease 9x5 inch loaf pan\n2. Mix mashed bananas and melted butter\n3. Add sugar, egg, and vanilla\n4. Sprinkle baking soda and salt over mixture\n5. Add flour and mix until just combined\n6. Fold in walnuts if using\n7. Pour into prepared pan\n8. Bake 60-65 minutes until toothpick comes out clean\n9. Cool before slicing"
+  },
+  {
+    "id": 29,
+    "name": "Chicken Quesadillas",
+    "category": "Mexican",
+    "ingredients": "4 large flour tortillas\n2 cups cooked chicken, shredded\n2 cups shredded Mexican cheese blend\n1 bell pepper, diced\n1/4 cup diced onion\n1 jalapeño, minced\n2 tbsp olive oil\n1 tsp cumin\n1 tsp chili powder\nSour cream and salsa for serving",
+    "instructions": "1. Mix chicken with cumin and chili powder\n2. Heat 1 tbsp oil in large skillet\n3. Sauté bell pepper, onion, and jalapeño until soft\n4. Remove vegetables from pan\n5. Place filling on half of each tortilla\n6. Add cheese and fold tortilla over\n7. Cook quesadillas 2-3 minutes per side until golden\n8. Cut into wedges and serve with sour cream and salsa"
+  },
+  {
+    "id": 30,
+    "name": "Mushroom Risotto",
+    "category": "Italian",
+    "ingredients": "1 1/2 cups Arborio rice\n4 cups warm chicken broth\n1 cup mixed mushrooms, sliced\n1/2 cup white wine\n1/4 cup butter\n1/4 cup grated Parmesan cheese\n1 small onion, diced\n2 cloves garlic, minced\n2 tbsp olive oil\nSalt and pepper to taste\nFresh parsley for garnish",
+    "instructions": "1. Heat olive oil in large pan, sauté mushrooms until golden\n2. Remove mushrooms and set aside\n3. Add butter to pan, sauté onion until translucent\n4. Add garlic and rice, stir for 2 minutes\n5. Add wine and stir until absorbed\n6. Add warm broth one ladle at a time, stirring constantly\n7. Continue until rice is creamy and tender (about 20 minutes)\n8. Stir in mushrooms, Parmesan, salt, and pepper\n9. Garnish with parsley and serve immediately"
+  },
+  {
+    "id": 31,
+    "name": "Thai Green Curry",
+    "category": "Thai",
+    "ingredients": "1 lb chicken thighs, cubed\n1 can coconut milk\n2 tbsp green curry paste\n1 eggplant, cubed\n1 bell pepper, sliced\n1 cup green beans, trimmed\n2 tbsp fish sauce\n1 tbsp brown sugar\n1/4 cup Thai basil leaves\n2 kaffir lime leaves\n1 tbsp vegetable oil",
+    "instructions": "1. Heat oil in large pan over medium heat\n2. Add curry paste and cook for 1 minute\n3. Add thick part of coconut milk, stir until smooth\n4. Add chicken and cook until no longer pink\n5. Add remaining coconut milk, eggplant, bell pepper, and green beans\n6. Simmer for 15 minutes until vegetables are tender\n7. Add fish sauce, brown sugar, and lime leaves\n8. Garnish with Thai basil and serve with jasmine rice"
+  },
+  {
+    "id": 32,
+    "name": "Caesar Salad",
+    "category": "Salad",
+    "ingredients": "1 large head romaine lettuce, chopped\n1/2 cup grated Parmesan cheese\n1 cup croutons\n2 cloves garlic, minced\n2 anchovy fillets, minced\n1/4 cup lemon juice\n1/4 cup olive oil\n1 egg yolk\n1 tsp Dijon mustard\n1/2 tsp Worcestershire sauce\nSalt and pepper to taste",
+    "instructions": "1. Wash and chop romaine lettuce, place in large bowl\n2. Make dressing by whisking garlic, anchovies, lemon juice, egg yolk, mustard, and Worcestershire\n3. Slowly whisk in olive oil until emulsified\n4. Season with salt and pepper\n5. Toss lettuce with dressing\n6. Add Parmesan cheese and croutons\n7. Toss again and serve immediately"
+  },
+  {
+    "id": 33,
+    "name": "Beef and Broccoli",
+    "category": "Chinese",
+    "ingredients": "1 lb beef flank steak, sliced\n4 cups broccoli florets\n2 tbsp vegetable oil\n3 cloves garlic, minced\n1 tbsp fresh ginger, grated\n1/4 cup soy sauce\n2 tbsp oyster sauce\n1 tbsp cornstarch\n1 tsp sesame oil\n1/4 cup beef broth\n2 green onions, sliced",
+    "instructions": "1. Marinate beef in 2 tbsp soy sauce and cornstarch for 15 minutes\n2. Heat oil in wok over high heat\n3. Stir-fry beef until browned, remove and set aside\n4. Add broccoli to wok, stir-fry for 2 minutes\n5. Add garlic and ginger, stir for 30 seconds\n6. Return beef to wok\n7. Mix remaining soy sauce, oyster sauce, sesame oil, and broth\n8. Pour sauce over beef and broccoli, toss to coat\n9. Garnish with green onions and serve with rice"
+  },
+  {
+    "id": 34,
+    "name": "Chocolate Chip Cookies",
+    "category": "Dessert",
+    "ingredients": "2 1/4 cups all-purpose flour\n1 tsp baking soda\n1 tsp salt\n1 cup butter, softened\n3/4 cup granulated sugar\n3/4 cup brown sugar\n2 large eggs\n2 tsp vanilla extract\n2 cups chocolate chips",
+    "instructions": "1. Preheat oven to 375°F\n2. Mix flour, baking soda, and salt in bowl\n3. Beat butter and both sugars until creamy\n4. Add eggs and vanilla, beat well\n5. Gradually add flour mixture\n6. Stir in chocolate chips\n7. Drop rounded tablespoons onto ungreased baking sheets\n8. Bake 9-11 minutes until golden brown\n9. Cool on baking sheet for 2 minutes before removing"
+  },
+  {
+    "id": 35,
+    "name": "Fish Tacos",
+    "category": "Mexican",
+    "ingredients": "1 lb white fish fillets\n8 small corn tortillas\n2 cups shredded cabbage\n1 avocado, sliced\n1/4 cup cilantro, chopped\n2 tbsp lime juice\n1 tbsp chili powder\n1 tsp cumin\n1/2 tsp paprika\n2 tbsp olive oil\nSalt and pepper to taste\nLime wedges for serving",
+    "instructions": "1. Mix chili powder, cumin, paprika, salt, and pepper\n2. Season fish with spice mixture\n3. Heat olive oil in skillet over medium-high heat\n4. Cook fish 3-4 minutes per side until flaky\n5. Warm tortillas in dry skillet\n6. Flake fish into chunks\n7. Fill tortillas with fish, cabbage, and avocado\n8. Sprinkle with cilantro and lime juice\n9. Serve with lime wedges"
+  },
+  {
+    "id": 36,
+    "name": "Minestrone Soup",
+    "category": "Italian",
+    "ingredients": "2 tbsp olive oil\n1 onion, diced\n2 carrots, diced\n2 celery stalks, diced\n3 cloves garlic, minced\n1 can diced tomatoes\n6 cups vegetable broth\n1 can kidney beans, drained\n1 cup small pasta (ditalini or elbow)\n2 cups spinach, chopped\n1 tsp dried basil\n1 tsp dried oregano\nSalt and pepper to taste\nParmesan cheese for serving",
+    "instructions": "1. Heat olive oil in large pot over medium heat\n2. Sauté onion, carrots, and celery until softened\n3. Add garlic and cook for 1 minute\n4. Add tomatoes, broth, beans, basil, and oregano\n5. Bring to boil, then simmer for 15 minutes\n6. Add pasta and cook until tender\n7. Stir in spinach until wilted\n8. Season with salt and pepper\n9. Serve hot with grated Parmesan cheese"
+  },
+  {
+    "id": 37,
+    "name": "Pad Thai",
+    "category": "Thai",
+    "ingredients": "8 oz rice noodles\n2 tbsp vegetable oil\n2 eggs, beaten\n1 cup cooked shrimp or chicken\n2 cloves garlic, minced\n2 tbsp tamarind paste\n2 tbsp fish sauce\n2 tbsp brown sugar\n1 cup bean sprouts\n2 green onions, chopped\n1/4 cup peanuts, crushed\n1 lime, cut into wedges\nCilantro for garnish",
+    "instructions": "1. Soak rice noodles in warm water until soft\n2. Heat oil in wok over high heat\n3. Add eggs and scramble, remove and set aside\n4. Add garlic to wok, stir for 30 seconds\n5. Add drained noodles, tamarind paste, fish sauce, and brown sugar\n6. Toss until noodles are coated\n7. Add shrimp/chicken, bean sprouts, and green onions\n8. Return eggs to wok and toss everything together\n9. Garnish with peanuts, cilantro, and lime wedges"
+  },
+  {
+    "id": 38,
+    "name": "Stuffed Bell Peppers",
+    "category": "American",
+    "ingredients": "4 large bell peppers, tops cut off and seeded\n1 lb ground turkey\n1 cup cooked rice\n1/2 cup diced onion\n1/2 cup diced tomatoes\n1/2 cup shredded cheese\n2 cloves garlic, minced\n1 tsp Italian seasoning\n1 tbsp olive oil\nSalt and pepper to taste\n1/4 cup chicken broth",
+    "instructions": "1. Preheat oven to 375°F\n2. Heat olive oil in skillet, cook onion until soft\n3. Add garlic and cook for 1 minute\n4. Add ground turkey and cook until browned\n5. Stir in rice, tomatoes, Italian seasoning, salt, and pepper\n6. Remove from heat and stir in half the cheese\n7. Stuff peppers with mixture\n8. Place in baking dish, add broth to bottom\n9. Cover and bake 30 minutes\n10. Top with remaining cheese and bake 10 minutes more"
+  },
+  {
+    "id": 39,
+    "name": "Lemon Garlic Shrimp",
+    "category": "Seafood",
+    "ingredients": "1 1/2 lbs large shrimp, peeled and deveined\n4 cloves garlic, minced\n1/4 cup butter\n1/4 cup olive oil\n1/4 cup lemon juice\n2 tbsp fresh parsley, chopped\n1/4 tsp red pepper flakes\nSalt and pepper to taste\nLemon wedges for serving",
+    "instructions": "1. Season shrimp with salt and pepper\n2. Heat olive oil in large skillet over medium-high heat\n3. Add shrimp and cook 2 minutes per side until pink\n4. Remove shrimp and set aside\n5. Add butter and garlic to same pan\n6. Cook garlic for 1 minute until fragrant\n7. Add lemon juice and red pepper flakes\n8. Return shrimp to pan and toss to coat\n9. Garnish with parsley and serve with lemon wedges"
+  },
+  {
+    "id": 40,
+    "name": "Apple Crisp",
+    "category": "Dessert",
+    "ingredients": "6 cups apples, peeled and sliced\n1 cup old-fashioned oats\n3/4 cup flour\n3/4 cup brown sugar\n1/2 cup butter, cold and cubed\n1/2 tsp cinnamon\n1/4 tsp nutmeg\n1/4 tsp salt\n2 tbsp lemon juice\n2 tbsp granulated sugar",
+    "instructions": "1. Preheat oven to 350°F, grease 9x13 inch baking dish\n2. Toss sliced apples with lemon juice and granulated sugar\n3. Arrange apples in prepared baking dish\n4. Mix oats, flour, brown sugar, cinnamon, nutmeg, and salt\n5. Cut in cold butter until mixture resembles coarse crumbs\n6. Sprinkle oat mixture over apples\n7. Bake 35-40 minutes until topping is golden brown\n8. Serve warm, optionally with vanilla ice cream"
+  }
+]
