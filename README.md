@@ -169,7 +169,4 @@ This project can be adapted for various programming courses including:
 - Human-Computer Interaction
 - Project Management in Software Development
 
----
-
-*Last updated: [Current Date]*
-*For the most current information, please visit the [GitHub repository](https://github.com/melissa0987/recipeManager)*
+--- 
