@@ -2,6 +2,8 @@
 
 A comprehensive recipe management application for storing recipes with ingredients, instructions, and meal planning capabilities.
 
+> **Educational Project**: This application was created for educational purposes as part of a programming course. It serves as a learning exercise to demonstrate software development concepts including database management, user interface design, and application architecture.
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -12,9 +14,7 @@ A comprehensive recipe management application for storing recipes with ingredien
   - [Managing Recipes](#managing-recipes)
   - [Ingredients Management](#ingredients-management)
   - [Meal Planning](#meal-planning)
-- [API Reference](#api-reference)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
+- [API Reference](#api-reference) 
 - [License](#license)
 - [Support](#support)
 
@@ -57,10 +57,10 @@ git clone https://github.com/melissa0987/recipeManager.git
 cd recipeManager
 
 # Install dependencies
-[installation command based on technology]
+pip install PyQt6
 
 # Run the application
-[run command]
+python main.py
 ```
 
 ### Alternative Installation Methods
@@ -176,28 +176,7 @@ POST /api/mealplans       - Create meal plan
 PUT /api/mealplans/{id}   - Update meal plan
 DELETE /api/mealplans/{id} - Delete meal plan
 ```
-
-## Configuration
-
-### Application Settings
-```json
-{
-  "database": {
-    "connection": "path/to/database",
-    "backup_frequency": "daily"
-  },
-  "ui": {
-    "theme": "light",
-    "default_serving_size": 4,
-    "measurement_system": "metric"
-  },
-  "features": {
-    "nutritional_tracking": true,
-    "photo_storage": true,
-    "recipe_import": true
-  }
-}
-```
+ 
 
 ### Customization Options
 - Theme selection (light/dark mode)
@@ -249,32 +228,36 @@ DELETE /api/mealplans/{id} - Delete meal plan
 - **"Recipe validation error"**: Ensure all required fields are completed
 - **"Import format not supported"**: Use supported file formats
 
-## Contributing
-
-We welcome contributions to Recipe Manager! Here's how you can help:
-
-### Getting Started
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-### Development Guidelines
-- Follow existing code style
-- Write clear commit messages
-- Include tests for new features
-- Update documentation as needed
-
-### Reporting Issues
-- Use the GitHub issue tracker
-- Provide detailed reproduction steps
-- Include system information
-- Attach relevant screenshots
 
 ## License
 
-This project is licensed under [License Type] - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### MIT License
+
+```
+MIT License
+
+Copyright (c) 2024 Melissa Louise Bangloy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 ## Support
 
@@ -300,6 +283,36 @@ This project is licensed under [License Type] - see the LICENSE file for details
 - Contributors and community members
 - Third-party libraries and tools used
 - Recipe data sources and inspiration
+- Course instructors and educational institution for project guidance
+
+## Educational Context
+
+This Recipe Manager application was developed as part of a programming course project. The goals of this educational project include:
+
+- **Learning Software Architecture**: Understanding how to structure a full-stack application
+- **Database Design**: Implementing proper data relationships and storage patterns
+- **User Interface Development**: Creating intuitive and responsive user interfaces
+- **API Development**: Building RESTful APIs for data management
+- **Testing Practices**: Implementing unit tests and integration tests
+- **Documentation**: Creating comprehensive project documentation
+- **Version Control**: Using Git and GitHub for collaborative development
+
+### Learning Outcomes
+Students working on this project will gain experience in:
+- Full-stack web development
+- Database design and management
+- RESTful API development
+- User experience (UX) design principles
+- Software testing methodologies
+- Project documentation and maintenance
+
+### Course Integration
+This project can be adapted for various programming courses including:
+- Web Development Fundamentals
+- Database Systems
+- Software Engineering
+- Human-Computer Interaction
+- Project Management in Software Development
 
 ---
 
