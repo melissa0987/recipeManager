@@ -3,6 +3,7 @@ from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
                             QLabel, QMessageBox, QDialog,
                             QSplitter, QGroupBox, QListWidgetItem)
 from PyQt6.QtCore import Qt 
+from PyQt6.QtWidgets import QComboBox
 from PyQt6.QtGui import QAction, QKeySequence, QFont
 from typing import Dict, Optional
 
@@ -49,6 +50,15 @@ class MainWindow(QMainWindow):
         self.search_edit.setPlaceholderText("Search recipes...")
         search_layout.addWidget(self.search_edit)
         main_layout.addLayout(search_layout)
+
+        # Category filter
+        filter_layout = QHBoxLayout()
+        filter_layout.addWidget(QLabel("Filter by Category:"))
+        self.category_filter = QComboBox()
+        self.category_filter.setMinimumWidth(150)
+        filter_layout.addWidget(self.category_filter)
+        filter_layout.addStretch()
+        main_layout.addLayout(filter_layout)
         
         # Main content splitter
         splitter = QSplitter(Qt.Orientation.Horizontal)
@@ -167,37 +177,53 @@ class MainWindow(QMainWindow):
         
         self.signals.recipe_selected.connect(self.display_recipe)
         self.signals.recipe_updated.connect(self.load_recipe_list)
+
+        self.category_filter.currentTextChanged.connect(self.filter_by_category)
     
     def load_recipe_list(self):
         """Load recipes into the list widget"""
-        self.recipe_list.clear()
-        recipes = self.recipe_manager.get_recipes()
-        
-        for recipe in recipes:
-            item = QListWidgetItem(f"{recipe['name']} ({recipe['category']})")
-            item.setData(Qt.ItemDataRole.UserRole, recipe)
-            self.recipe_list.addItem(item)
-        
-        self.statusBar().showMessage(f"Loaded {len(recipes)} recipes")
+        self.load_category_filter()  # Refresh category filter
+        self.filter_by_category()    # Apply current filters
     
     def filter_recipes(self):
-        """Filter recipes based on search text"""
+        """Filter recipes based on search text and category"""
+        self.filter_by_category()  # Use the combined filter method
+   
+    def load_category_filter(self):
+        """Load categories into the filter dropdown"""
+        self.category_filter.clear()
+        self.category_filter.addItem("All Categories")
+        
+        # Get unique categories from existing recipes
+        unique_categories = self.recipe_manager.get_unique_categories()
+        self.category_filter.addItems(unique_categories)
+
+    def filter_by_category(self):
+        """Filter recipes by selected category"""
+        selected_category = self.category_filter.currentText()
         search_term = self.search_edit.text().strip()
         
-        if not search_term:
-            self.load_recipe_list()
-            return
+        # Get recipes by category
+        if selected_category == "All Categories":
+            recipes = self.recipe_manager.get_recipes()
+        else:
+            recipes = self.recipe_manager.get_recipes_by_category(selected_category)
         
+        # Further filter by search term if provided
+        if search_term:
+            recipes = [r for r in recipes 
+                    if search_term.lower() in r.get('name', '').lower() or 
+                        search_term.lower() in r.get('ingredients', '').lower()]
+        
+        # Update the list
         self.recipe_list.clear()
-        recipes = self.recipe_manager.search_recipes(search_term)
-        
         for recipe in recipes:
             item = QListWidgetItem(f"{recipe['name']} ({recipe['category']})")
             item.setData(Qt.ItemDataRole.UserRole, recipe)
             self.recipe_list.addItem(item)
         
-        self.statusBar().showMessage(f"Found {len(recipes)} matching recipes")
-    
+        self.statusBar().showMessage(f"Found {len(recipes)} recipes")
+
     def on_recipe_selected(self, item: QListWidgetItem):
         """Handle recipe selection from list"""
         recipe = item.data(Qt.ItemDataRole.UserRole)

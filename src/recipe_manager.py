@@ -6,7 +6,7 @@ class RecipeManager:
     def __init__(self, data_file: str = "data/recipes.json"):
         self.data_file = data_file
         self.recipes: List[Dict] = []
-        self.categories = ["Breakfast", "Lunch", "Dinner", "Snack", "Dessert", "Vegetarian", "Vegan"]
+        self.categories = ["Breakfast", "Lunch", "Dessert", "Dinner", "Snack", "Vegetarian", "Vegan"]
         self.load_recipes()
     
     def load_recipes(self) -> bool:
@@ -19,6 +19,18 @@ class RecipeManager:
         except Exception as e:
             print(f"Error loading recipes: {e}")
             return False
+    def get_recipes_by_category(self, category: str) -> List[Dict]:
+        """Get recipes filtered by category"""
+        if category == "All Categories":
+            return self.recipes
+        return [r for r in self.recipes if r.get('category', '').lower() == category.lower()]
+
+    def get_unique_categories(self) -> List[str]:
+        """Get all unique categories from existing recipes"""
+        categories = set(recipe.get('category', '') for recipe in self.recipes)
+        categories = [cat for cat in categories if cat.strip()]  # Remove empty categories
+        return sorted(categories)
+    
     
     def save_recipes(self) -> bool:
         """Save recipes to JSON file"""
@@ -69,3 +81,5 @@ class RecipeManager:
         """Validate recipe data"""
         required_fields = ['name', 'category', 'ingredients', 'instructions']
         return all(recipe.get(field, '').strip() for field in required_fields)
+    
+    
