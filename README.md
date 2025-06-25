@@ -1,10 +1,13 @@
-# Recipe Manager
+# 🧠 Smart Recipe Planner
+![Made for Education](https://img.shields.io/badge/Made%20for-Education-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)
 
-A comprehensive recipe management application for storing recipes with ingredients, instructions, and meal planning capabilities.
+*A Minecraft-themed, Python + PyQt6 desktop application for managing recipes, ingredients, and meal planning.*
 
-> **Educational Project**: This application was created for educational purposes as part of a programming course. It serves as a learning exercise to demonstrate software development concepts including database management, user interface design, and application architecture.
+> **Educational Project**: Developed as part of a programming course to demonstrate UI design, modular architecture, and real-world development workflows.
 
-## Table of Contents
+---
+
+## 📌 Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -13,112 +16,200 @@ A comprehensive recipe management application for storing recipes with ingredien
 - [Usage](#usage)
   - [Managing Recipes](#managing-recipes)
   - [Ingredients Management](#ingredients-management)
-  - [Meal Planning](#meal-planning) 
+  - [Meal Planning](#meal-planning)
+- [Architecture](#architecture)
+- [Customization](#customization)
+- [Troubleshooting](#troubleshooting)
 - [License](#license)
-- [Support](#support)
+- [Educational Context](#educational-context)
 
-## Overview
+---
 
-Recipe Manager is a user-friendly application designed to help you organize, store, and plan your culinary adventures. Whether you're a home cook or a professional chef, this tool provides an efficient way to manage your recipe collection and plan meals.
+## 🌿 Overview
 
-## Features
+**Smart Recipe Planner** is a user-friendly desktop app to organize your recipes and plan meals—featuring a **Minecraft-inspired interface** with blocky aesthetics and earthy colors. Built with Python and PyQt6, it offers an intuitive experience for home cooks and programming learners alike.
 
-### Core Functionality
-- **Recipe Storage**: Store unlimited recipes with detailed information
-- **Ingredient Management**: Track ingredients with quantities and units
-- **Step-by-Step Instructions**: Clear, organized cooking instructions
-- **Meal Planning**: Plan meals for days, weeks, or months ahead
-- **Search & Filter**: Quickly find recipes by name, ingredient, or category
-- **Categories & Tags**: Organize recipes with custom categories and tags
- 
+---
 
-## Installation
+## ⭐ Features
+
+### ✅ Core Functionality
+
+- **Recipe Management**: Add, edit, delete recipes with detailed info
+- **Category Filtering**: Breakfast, Lunch, Dinner, Vegan, etc.
+- **Search Recipes**: By name or ingredients
+- **Dual-Pane UI**: List view + detailed view
+
+### 🍽 Ingredients & Planning
+
+- Ingredient tracking with units
+- Weekly/monthly meal planner (drag & drop)
+- Balanced category-based planning
+
+### 🎮 Theming & UI
+
+- Minecraft-style theme: blocky, pixel-like visuals
+- Keyboard shortcuts: Ctrl+A (Add), Ctrl+Q (Quit), etc.
+- Responsive layout via PyQt6
+
+### 💾 Data Handling
+
+- JSON storage for easy portability
+- Modular architecture for easy maintenance
+
+---
+
+## 💻 Installation
 
 ### Prerequisites
-- [List specific requirements based on technology stack]
-- [e.g., Python 3.8+, Node.js 14+, etc.]
 
-### Quick Start
+- Python 3.7+
+- PyQt6
+
+### Setup
+
 ```bash
 # Clone the repository
-git clone https://github.com/melissa0987/recipeManager.git
-
-# Navigate to the project directory
-cd recipeManager
+git clone https://github.com/yourusername/smart-recipe-planner.git
+cd smart-recipe-planner
 
 # Install dependencies
 pip install PyQt6
 
-# Run the application
+# Run the app
 python main.py
-``` 
-
-## Getting Started
-
-### First Run
-1. Launch the application
-2. Create your first recipe collection
-3. Add your favorite recipe
-4. Explore the meal planning features
-
-### Basic Workflow
-1. **Add Recipes**: Input your recipes with ingredients and instructions
-2. **Organize**: Use categories and tags to organize your collection
-3. **Plan Meals**: Create meal plans for the week or month 
-4. **Cook & Enjoy**: Follow your organized recipes and meal plans
-
-## Usage
-
-### Managing Recipes
-
-#### Adding a New Recipe
-```
-1. Click "Add Recipe" or use the + button
-2. Fill in recipe details:
-   - Recipe name 
-   - Category 
-   - Prep time and cook time 
-3. Add ingredients with quantities
-4. Enter step-by-step instructions 
-6. Save the recipe
 ```
 
-#### Editing Recipes
-- Select a recipe from your collection
-- Click "Edit" to modify any details
-- Save changes when complete
+---
 
-#### Recipe Categories
-- Create custom categories (e.g., "Breakfast", "Desserts", "Vegetarian") 
-- Filter recipes by category
+## 🚀 Getting Started
 
-### Ingredients Management
+1. Launch the application  
+2. Click **Add Recipe** (or press `Ctrl+A`)  
+3. Enter details:  
+   - Recipe Name  
+   - Category  
+   - Ingredients  
+   - Instructions  
+4. Save and organize recipes by category  
+5. Start planning meals!
 
-#### Adding Ingredients
-- Add ingredients individually or from a master list
-- Specify quantities with appropriate units
-- Set ingredient categories for better organization
+---
 
+## 🍳 Usage
 
-### Meal Planning
+### 📝 Managing Recipes
 
-#### Creating Meal Plans
-1. Navigate to the Meal Planning section
-2. Select the time period (week, month, etc.)
-3. Drag and drop recipes onto specific days
-4. Balance meals across different categories
-5. Review nutritional information
+#### ➕ Adding
 
- 
+- Click **Add Recipe** or press `Ctrl+A`
+- Fill out the following fields:
+  - **Name**
+  - **Category** (select existing or create new)
+  - **Ingredients** (one per line)
+  - **Instructions**
+- Click **Save**
 
-## License
+#### ✏️ Editing
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Select a recipe
+- Click **Edit**
+- Update the details
+- Click **Save**
 
-### MIT License
+#### ❌ Deleting
+
+- Select a recipe
+- Click **Delete**
+- Confirm deletion
+
+---
+
+### 🔍 Searching & Filtering
+
+- Use the **search box** to find recipes by name or ingredients  
+- Use the **category dropdown** to filter  
+- Combine search + filter for precise results
+
+---
+
+### 🧂 Ingredients Management
+
+- Add ingredients with quantities and units  
+- Organize ingredients by type or category  
+- View ingredients in the detailed recipe panel  
+
+---
+
+### 📅 Meal Planning
+
+1. Open the **Meal Planner** tab  
+2. Choose a view: **week** or **month**  
+3. Drag recipes onto calendar days  
+4. Plan meals across different categories  
+5. Track meals across days
+
+---
+
+## 🧱 Architecture
+
+### 📁 File Structure
+
+```bash
+
+recipeManager/
+   ├── main.py                   # Entry point
+   ├── data/
+   │ └── recipes.json            # Stored recipe data
+   └── src/
+      ├── main_window.py         # UI layout & controls
+      ├── recipe_manager.py      # Data operations
+      ├── recipe_dialog.py       # Add/edit form
+      ├── custom_signals.py      # PyQt signal management
+      └── styles.py              # Theme styles
+
 
 ```
-MIT License
+
+---
+
+## 🎨 Customization
+
+### Modify Theme
+
+- Open `src/styles.py`
+- Update the `MINECRAFT_COLORS` dictionary
+- Adjust style rules for various widgets
+
+### Add New Categories
+
+- Use the **Add/Edit** dialog in the application  
+- Or update category logic in `recipe_manager.py`
+
+### Extend the App
+
+- Add new signals in `custom_signals.py`
+- Expand logic in `recipe_manager.py`
+- Add UI components in `main_window.py`
+
+---
+
+## 🛠️ Troubleshooting
+
+| Issue                    | Solution                                                  |
+|--------------------------|-----------------------------------------------------------|
+| App won't start          | Ensure PyQt6 is installed and Python version is ≥ 3.7     |
+| Recipes not saving       | Make sure `data/recipes.json` exists and is writable      |
+| UI broken or theme issue | Check if your PyQt6 version supports all style features   |
+
+---
+
+## 🔐 License
+
+This project is licensed under the MIT License.
+
+```text
+MIT License 
 
 Copyright (c) 2024 Melissa Louise Bangloy
 
@@ -139,34 +230,27 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 ```
- 
-## Educational Context
 
-This Recipe Manager application was developed as part of a programming course project. The goals of this educational project include:
+## 🎓 Educational Context
 
-- **Learning Software Architecture**: Understanding how to structure a full-stack application
-- **Database Design**: Implementing proper data relationships and storage patterns
-- **User Interface Development**: Creating intuitive and responsive user interfaces
-- **API Development**: Building RESTful APIs for data management
-- **Testing Practices**: Implementing unit tests and integration tests
-- **Documentation**: Creating comprehensive project documentation
-- **Version Control**: Using Git and GitHub for collaborative development
+This application was developed as part of an academic project to demonstrate core software development principles and practical GUI application design.
 
-### Learning Outcomes
-Students working on this project will gain experience in:
-- Full-stack web development
-- Database design and management 
-- User experience (UX) design principles
-- Software testing methodologies
-- Project documentation and maintenance
+### 🛠️ Skills Demonstrated
 
-### Course Integration
-This project can be adapted for various programming courses including:
-- Web Development Fundamentals
-- Database Systems
-- Software Engineering
-- Human-Computer Interaction
-- Project Management in Software Development
+- GUI programming using **PyQt6**
+- JSON-based data persistence
+- Modular and extensible Python architecture
+- Themed UX/UI design
+- Event-driven programming with **signals and slots**
 
---- 
+---
+
+### 🧠 Learning Objectives
+
+Students and contributors working on this project will learn to:
+
+- Build desktop GUI applications with PyQt6
+- Design and implement modular systems for maintainability
+- Manage and persist user data u
