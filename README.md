@@ -25,13 +25,13 @@
 
 ---
 
-## 🌿 Overview
+## Overview
 
 **Smart Recipe Planner** is a user-friendly desktop app to organize your recipes and plan meals—featuring a **Minecraft-inspired interface** with blocky aesthetics and earthy colors. Built with Python and PyQt6, it offers an intuitive experience for home cooks and programming learners alike.
 
 ---
 
-## ⭐ Features
+## Features
 
 ### ✅ Core Functionality
 
@@ -59,7 +59,7 @@
 
 ---
 
-## 💻 Installation
+## Installation
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ python main.py
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Launch the application  
 2. Click **Add Recipe** (or press `Ctrl+A`)  
@@ -96,9 +96,9 @@ python main.py
 
 ---
 
-## 🍳 Usage
+## Usage
 
-### 📝 Managing Recipes
+### Managing Recipes
 
 #### ➕ Adding
 
@@ -133,7 +133,7 @@ python main.py
 
 ---
 
-### 🧂 Ingredients Management
+### Ingredients Management
 
 - Add ingredients with quantities and units  
 - Organize ingredients by type or category  
@@ -141,7 +141,7 @@ python main.py
 
 ---
 
-### 📅 Meal Planning
+### Meal Planning
 
 1. Open the **Meal Planner** tab  
 2. Choose a view: **week** or **month**  
@@ -151,12 +151,11 @@ python main.py
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 ### 📁 File Structure
 
 ```bash
-
 recipeManager/
    ├── main.py                   # Entry point
    ├── data/
@@ -167,13 +166,11 @@ recipeManager/
       ├── recipe_dialog.py       # Add/edit form
       ├── custom_signals.py      # PyQt signal management
       └── styles.py              # Theme styles
-
-
 ```
 
 ---
 
-## 🎨 Customization
+## Customization
 
 ### Modify Theme
 
@@ -194,7 +191,7 @@ recipeManager/
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Issue                    | Solution                                                  |
 |--------------------------|-----------------------------------------------------------|
@@ -204,7 +201,7 @@ recipeManager/
 
 ---
 
-## 🔐 License
+## License
 
 This project is licensed under the MIT License.
 
@@ -230,10 +227,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 ```
 
-## 🎓 Educational Context
+## Educational Context
 
 This application was developed as part of an academic project to demonstrate core software development principles and practical GUI application design.
 
@@ -253,4 +249,6 @@ Students and contributors working on this project will learn to:
 
 - Build desktop GUI applications with PyQt6
 - Design and implement modular systems for maintainability
-- Manage and persist user data u
+- Manage and persist user data using JSON
+- Create cohesive UI themes and user experiences
+- Apply object-oriented programming principles in real applications
