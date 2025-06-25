@@ -6,7 +6,10 @@ Course: Application Development – PyQt6
 
 
 1. Project Overview
-Smart Recipe Planner is a desktop application designed to help users efficiently manage and organize their cooking recipes and weekly meal plans. Built using Python and PyQt6, the application provides an intuitive interface for adding, editing, viewing, and categorizing recipes, along with the ability to plan meals throughout the week. The goal is to simplify meal planning and recipe storage for everyday users who prefer an offline, easy-to-use solution without needing cloud accounts or mobile apps.
+Smart Recipe Planner is a desktop application designed to help users efficiently manage and organize their cooking recipes and weekly meal plans. 
+Built using Python and PyQt6, the application provides an intuitive interface for adding, editing, viewing, and categorizing recipes, 
+along with the ability to plan meals throughout the week. The goal is to simplify meal planning and recipe storage for everyday users 
+who prefer an offline, easy-to-use solution without needing cloud accounts or mobile apps.
 
 This project showcases a variety of GUI development techniques and concepts learned throughout the course, including the use of widgets, layout managers, signals and slots, custom components, and file handling.
 
@@ -60,4 +63,7 @@ Main Window Layout
 Menu --		Actions		  --	Shortcuts
 File --	New, Open, Save, Exit	  --	Ctrl+N, Ctrl+O, Ctrl+S, Ctrl+Q
 Edit --	Add Recipe, Delete Recipe --	Ctrl+A, Del
-Help --	About			  --	F1
+Help --		About		  --	F1
+
+
+
