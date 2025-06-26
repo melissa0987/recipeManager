@@ -48,6 +48,8 @@
 
 ### 🎮 Theming & UI
 
+![alt text](images/image.png)
+
 - Minecraft-style theme: blocky, pixel-like visuals
 - Keyboard shortcuts: Ctrl+A (Add), Ctrl+Q (Quit), etc.
 - Responsive layout via PyQt6
