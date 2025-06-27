@@ -73,7 +73,7 @@
 ```bash
 # Clone the repository
 git clone https://github.com/melissa0987/recipeManager
-cd smart-recipe-planner
+cd recipeManager/
 
 # Install dependencies
 pip install PyQt6
