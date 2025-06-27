@@ -72,7 +72,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smart-recipe-planner.git
+git clone https://github.com/melissa0987/recipeManager
 cd smart-recipe-planner
 
 # Install dependencies
