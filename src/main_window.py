@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
 from PyQt6.QtCore import Qt 
 from PyQt6.QtWidgets import QComboBox
 from PyQt6.QtGui import QAction, QKeySequence, QFont
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
 # Fixed import - assuming styles.py is in the same directory as main_window.py
 from .styles import get_minecraft_stylesheet, apply_button_classes
@@ -188,7 +188,7 @@ class MainWindow(QMainWindow):
     def filter_recipes(self):
         """Filter recipes based on search text and category"""
         self.filter_by_category()  # Use the combined filter method
-   
+
     def load_category_filter(self):
         """Load categories into the filter dropdown"""
         self.category_filter.clear()
@@ -199,21 +199,20 @@ class MainWindow(QMainWindow):
         self.category_filter.addItems(unique_categories)
 
     def filter_by_category(self):
-        """Filter recipes by selected category"""
+        """Filter recipes by selected category and search term (all results sorted alphabetically)"""
         selected_category = self.category_filter.currentText()
         search_term = self.search_edit.text().strip()
         
-        # Get recipes by category
-        if selected_category == "All Categories":
-            recipes = self.recipe_manager.get_recipes()
-        else:
-            recipes = self.recipe_manager.get_recipes_by_category(selected_category)
+        # Get recipes by category (already sorted alphabetically)
+        recipes = self.recipe_manager.get_recipes_by_category(selected_category)
         
         # Further filter by search term if provided
         if search_term:
             recipes = [r for r in recipes 
-                    if search_term.lower() in r.get('name', '').lower() or 
-                        search_term.lower() in r.get('ingredients', '').lower()]
+                      if search_term.lower() in r.get('name', '').lower() or 
+                         search_term.lower() in r.get('ingredients', '').lower()]
+            # Re-sort after filtering
+            recipes = sorted(recipes, key=lambda recipe: recipe.get('name', '').lower())
         
         # Update the list
         self.recipe_list.clear()

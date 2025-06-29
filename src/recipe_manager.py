@@ -19,18 +19,26 @@ class RecipeManager:
         except Exception as e:
             print(f"Error loading recipes: {e}")
             return False
+
     def get_recipes_by_category(self, category: str) -> List[Dict]:
-        """Get recipes filtered by category"""
+        """Get recipes filtered by category, sorted alphabetically"""
         if category == "All Categories":
-            return self.recipes
-        return [r for r in self.recipes if r.get('category', '').lower() == category.lower()]
+            recipes = self.recipes
+        else:
+            recipes = [r for r in self.recipes if r.get('category', '').lower() == category.lower()]
+        
+        # Always return sorted results
+        return sorted(recipes, key=lambda recipe: recipe.get('name', '').lower())
+
+    def get_recipes_sorted_alphabetically(self) -> List[Dict]:
+        """Get all recipes sorted alphabetically by name"""
+        return sorted(self.recipes, key=lambda recipe: recipe.get('name', '').lower())
 
     def get_unique_categories(self) -> List[str]:
         """Get all unique categories from existing recipes"""
         categories = set(recipe.get('category', '') for recipe in self.recipes)
         categories = [cat for cat in categories if cat.strip()]  # Remove empty categories
         return sorted(categories)
-    
     
     def save_recipes(self) -> bool:
         """Save recipes to JSON file"""
@@ -67,19 +75,18 @@ class RecipeManager:
         return self.save_recipes()
     
     def get_recipes(self) -> List[Dict]:
-        """Get all recipes"""
-        return self.recipes
+        """Get all recipes sorted alphabetically"""
+        return self.get_recipes_sorted_alphabetically()
     
     def search_recipes(self, query: str) -> List[Dict]:
-        """Search recipes by name or ingredients"""
+        """Search recipes by name or ingredients, sorted alphabetically"""
         query = query.lower()
-        return [r for r in self.recipes 
-                if query in r.get('name', '').lower() or 
-                   query in r.get('ingredients', '').lower()]
+        matching_recipes = [r for r in self.recipes 
+                           if query in r.get('name', '').lower() or 
+                              query in r.get('ingredients', '').lower()]
+        return sorted(matching_recipes, key=lambda recipe: recipe.get('name', '').lower())
     
     def validate_recipe(self, recipe: Dict) -> bool:
         """Validate recipe data"""
         required_fields = ['name', 'category', 'ingredients', 'instructions']
         return all(recipe.get(field, '').strip() for field in required_fields)
-    
-    
