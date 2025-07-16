@@ -212,9 +212,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Educational Context
-
-This application was developed as part of an academic project to demonstrate core software development principles and practical GUI application design.
 
 ### 🛠️ Skills Demonstrated
 
@@ -224,12 +221,6 @@ This application was developed as part of an academic project to demonstrate cor
 - Themed UX/UI design
 - Event-driven programming with **signals and slots**
 
----
-
-### 🧠 Learning Objectives
-
-- Build desktop GUI applications with PyQt6
-- Design and implement modular systems for maintainability
-- Manage and persist user data using JSON
-- Create cohesive UI themes and user experiences
-- Apply object-oriented programming principles in real applications
+### License
+This project is developed for educational purposes as part of a Application Development (DESKTOP) course project.
+> **Educational Project**: Developed as part of a programming course to demonstrate UI design, modular architecture, and real-world development workflows.
