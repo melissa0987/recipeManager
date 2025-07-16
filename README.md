@@ -1,27 +1,8 @@
 # 🧠 Smart Recipe Planner
-![Made for Education](https://img.shields.io/badge/Made%20for-Education-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)
 
 *A Minecraft-themed, Python + PyQt6 desktop application for managing recipes, ingredients, and meal planning.*
 
 > **Educational Project**: Developed as part of a programming course to demonstrate UI design, modular architecture, and real-world development workflows.
-
----
-
-## 📌 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-  - [Managing Recipes](#managing-recipes)
-  - [Ingredients Management](#ingredients-management)
-  - [Meal Planning](#meal-planning)
-- [Architecture](#architecture)
-- [Customization](#customization)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Educational Context](#educational-context)
 
 ---
 
@@ -246,8 +227,6 @@ This application was developed as part of an academic project to demonstrate cor
 ---
 
 ### 🧠 Learning Objectives
-
-Students and contributors working on this project will learn to:
 
 - Build desktop GUI applications with PyQt6
 - Design and implement modular systems for maintainability
