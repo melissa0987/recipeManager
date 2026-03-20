@@ -1,4 +1,4 @@
-# 🧠 Smart Recipe Planner
+# Smart Recipe Planner
 
 *A Minecraft-themed, Python + PyQt6 desktop application for managing recipes, ingredients, and meal planning.*
 
@@ -14,7 +14,7 @@
 
 ## Features
 
-### ✅ Core Functionality
+### Core Functionality
 
 - **Recipe Management**: Add, edit, delete recipes with detailed info
 - **Category Filtering**: Breakfast, Lunch, Dinner, Vegan, etc.
@@ -27,7 +27,7 @@
 - Weekly/monthly meal planner (drag & drop)
 - Balanced category-based planning
 
-### 🎮 Theming & UI
+### Theming & UI
 
 ![alt text](images/image.png)
 
@@ -83,7 +83,7 @@ python main.py
 
 ### Managing Recipes
 
-#### ➕ Adding
+#### Adding
 
 - Click **Add Recipe** or press `Ctrl+A`
 - Fill out the following fields:
@@ -93,14 +93,14 @@ python main.py
   - **Instructions**
 - Click **Save**
 
-#### ✏️ Editing
+#### Editing
 
 - Select a recipe
 - Click **Edit**
 - Update the details
 - Click **Save**
 
-#### ❌ Deleting
+#### Deleting
 
 - Select a recipe
 - Click **Delete**
@@ -108,7 +108,7 @@ python main.py
 
 ---
 
-### 🔍 Searching & Filtering
+### Searching & Filtering
 
 - Use the **search box** to find recipes by name or ingredients  
 - Use the **category dropdown** to filter  
@@ -136,7 +136,7 @@ python main.py
 
 ## Architecture
 
-### 📁 File Structure
+### File Structure
 
 ```bash
 recipeManager/
@@ -153,67 +153,14 @@ recipeManager/
 
 ---
 
-## Customization
 
-### Modify Theme
-
-- Open `src/styles.py`
-- Update the `MINECRAFT_COLORS` dictionary
-- Adjust style rules for various widgets
-
-### Add New Categories
-
-- Use the **Add/Edit** dialog in the application  
-- Or update category logic in `recipe_manager.py`
-
-### Extend the App
-
-- Add new signals in `custom_signals.py`
-- Expand logic in `recipe_manager.py`
-- Add UI components in `main_window.py`
-
----
-
-## Troubleshooting
-
-| Issue                    | Solution                                                  |
-|--------------------------|-----------------------------------------------------------|
-| App won't start          | Ensure PyQt6 is installed and Python version is ≥ 3.7     |
-| Recipes not saving       | Make sure `data/recipes.json` exists and is writable      |
-| UI broken or theme issue | Check if your PyQt6 version supports all style features   |
-
----
 
 ## License
-
-This project is licensed under the MIT License.
-
-```text
-MIT License 
-
-Copyright (c) 2024 Melissa Louise Bangloy
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+his project is developed for educational purposes as part of a Application Development (DESKTOP) course project.
+> **Educational Project**: Developed as part of a programming course to demonstrate UI design, modular architecture, and real-world development workflows.
 
 
-### 🛠️ Skills Demonstrated
+### Skills Demonstrated
 
 - GUI programming using **PyQt6**
 - JSON-based data persistence
@@ -221,6 +168,3 @@ SOFTWARE.
 - Themed UX/UI design
 - Event-driven programming with **signals and slots**
 
-### License
-This project is developed for educational purposes as part of a Application Development (DESKTOP) course project.
-> **Educational Project**: Developed as part of a programming course to demonstrate UI design, modular architecture, and real-world development workflows.
